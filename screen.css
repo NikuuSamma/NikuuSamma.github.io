@@ -9,9 +9,7 @@ body
 	font-size: 2em;
 	font-style: oblique;
 	font-weight: bold;
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
+	margin: auto;
 	width: 425px;
 	color: white;
 	background-color: #006620;
