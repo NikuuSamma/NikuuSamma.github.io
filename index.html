@@ -8,8 +8,10 @@
 </head>
 <body>
 	<form action="/" method="post">
-		<fieldset id="info">
-			<legend>Simple Form</legend>
+		<div  id="formTitle">
+			<h1>Simple Form<h1>
+		</div>
+		<fieldset id="formContent">
 			<div id ="email">
 				<label for="email">Email:</label>
 					<input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}" Title="Enter email" placeholder="email@domain.com" name="email" required>
@@ -22,9 +24,11 @@
 			
 			<div id="bDay">
 				<label for="bDay">Birthday:</label>
-					<input type="date" min="1900-01-01" Title="Enter Birthday" placeholder="DD/MM/YYYY" name="bDay" required>
+					<input type="date" Title="Enter Birthday" placeholder="DD/MM/YYYY" name="bDay" required>
 			</div>
+			
 			<button type="submit">Submit</button>
+		
 		</fieldset>
 	</form>
 </body>
