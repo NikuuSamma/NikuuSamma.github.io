@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px) 
+@media screen and (max-width: 800px) 
 {
 	body
 	{
@@ -33,13 +33,13 @@
 	font-style: oblique;
 	font-weight: bold;
 	text-align: center;
-	width: 400px;
+	width: 200px;
 }
   
 #info
 {
   margin: 1em auto;
-  width: 400px;
+  width: 200px;
   background-color: #ffffff;
 }
 
