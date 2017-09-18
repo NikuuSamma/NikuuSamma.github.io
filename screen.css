@@ -1,31 +1,3 @@
-@media screen and (max-width: 800px) 
-{
-	body
-	{
-		background-color: #FFDAB9;
-	}
-	
-	#formTitle
-	{
-		color: white;
-		background-color: #006620;
-	}
-	
-	#info
-	{
-		background-color: #ffffff;
-	}
-
-	
-	label 
-	{
-		display: block;
-		text-align: left;
-		color: #00b300;
-		font-size: 1.3em;
-	}
-}
-
 #formTitle
 {
 	font-family: Courier;
@@ -33,14 +5,17 @@
 	font-style: oblique;
 	font-weight: bold;
 	text-align: center;
-	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 425px;
 }
   
-#info
+#formContent
 {
-  margin: 1em auto;
-  width: 200px;
-  background-color: #ffffff;
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+	background-color: #ffffff;
 }
 
 div
@@ -48,10 +23,18 @@ div
 	margin-top: 1em;		
 }
 
+label 
+{
+	display: inline-block;
+	text-align: left;
+	font-size: 1.3em;
+	width: 140px;
+}
+
 input 
 {
   font: 1em sans-serif;
-  width: 200px;
+  width: 250px;
   box-sizing: border-box;
   border: 1px solid #999;
 }
@@ -67,4 +50,38 @@ button
    display: block;
    width: 5em;
    margin: 1em auto;
+}
+
+@media only screen and (max-width: 800px) 
+{
+	body
+	{
+		background-color: #FFDAB9;
+	}
+	
+	#formTitle
+	{
+		color: white;
+		background-color: #006620;
+	}
+	
+	#formContent
+	{
+		background-color: #ffffff;
+	}
+	
+	label 
+	{
+		display: block;
+		text-align: left;
+		font-size: 1.3em;
+		color: green;
+	}
+	
+	button 
+	{
+		/* To position the buttons to the same position of the text fields */
+		margin-left: 0;
+		width: 5em;
+	}	
 }
