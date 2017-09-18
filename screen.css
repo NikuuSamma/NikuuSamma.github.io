@@ -1,3 +1,8 @@
+body
+{
+	background-color: #FFDAB9;
+}
+
 #formTitle
 {
 	font-family: Courier;
@@ -8,12 +13,13 @@
 	margin-left: auto;
 	margin-right: auto;
 	width: 425px;
+	color: white;
+	background-color: #006620;
 }
   
 #formContent
 {
-	margin-left: auto;
-	margin-right: auto;
+	margin: auto;
 	width: 400px;
 	background-color: #ffffff;
 }
@@ -25,10 +31,10 @@ div
 
 label 
 {
-	display: inline-block;
+	display: block;
 	text-align: left;
 	font-size: 1.3em;
-	width: 140px;
+	color: green;
 }
 
 input 
@@ -46,42 +52,20 @@ input:focus
 
 button 
 {
-  /* To position the buttons to the same position of the text fields */
-   display: block;
-   width: 5em;
-   margin: 1em auto;
+	/* To position the buttons to the same position of the text fields */
+	display: block;
+	margin: 1em auto;
+	width: 5em;
 }
 
-@media only screen and (max-width: 800px) 
-{
-	body
-	{
-		background-color: #FFDAB9;
-	}
-	
-	#formTitle
-	{
-		color: white;
-		background-color: #006620;
-	}
-	
-	#formContent
-	{
-		background-color: #ffffff;
-	}
-	
+
+@media only screen and (min-width: 800px) 
+{	
 	label 
 	{
-		display: block;
+		display: inline-block;
 		text-align: left;
 		font-size: 1.3em;
-		color: green;
+		width: 140px;
 	}
-	
-	button 
-	{
-		/* To position the buttons to the same position of the text fields */
-		margin-left: 0;
-		width: 5em;
-	}	
 }
