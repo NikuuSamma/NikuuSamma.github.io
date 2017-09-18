@@ -6,10 +6,11 @@ body
 #formTitle
 {
 	font-family: Courier;
-	font-size: 2em;
+	font-size: 1em;
 	font-style: oblique;
 	font-weight: bold;
-	margin: auto;
+	margin: 1em auto -1.5em auto;
+	text-align: center;
 	width: 425px;
 	color: white;
 	background-color: #006620;
