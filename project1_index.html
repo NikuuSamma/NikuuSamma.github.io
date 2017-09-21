@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" class="nojs">
+	<head>
+		<title>Project 1</title>
+		
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
+		
+		<link rel="stylesheet" media="screen" href="form.css" />
+	</head>
+	<body>
+		<div id="content">
+			
+			<form id="formContent" action="/" method="post">	
+				<header><h1>Registration Form</h1></header>
+				
+				<fieldset>
+					<div>
+						<label class="input">
+							<input type ="text" Title="Enter a User Name" placeholder="User Name" name="userName" required>
+						</label>
+					</div>
+				
+					<div>
+						<label class="input">
+							<input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}" Title="Enter Email" placeholder="Email address" name="email" required>
+						</label>
+					</div>
+					
+					<div>
+						<label class="input">
+							<input type="password" Title="Enter a Password" placeholder="Password" required>
+						</label>
+					</div>
+					
+					<div>
+						<label class="input">
+							<input type="password" Title="Confirm password" placeholder="Confirm Password" required>
+						</label>
+					</div>
+				</fieldset>
+				
+				<fieldset>
+					<table id="nameTable">
+						<tr>
+							<td>
+								<label class="input">	
+									<input type ="text" Title="Enter First name" placeholder="First Name" name="fName" required>
+								</label>
+							</td>
+							<td>
+								<label class="input">
+									<input type ="text" Title="Enter Last name" placeholder="Last Name" name="lName" required>
+								</label>
+							</td>
+						</tr>
+					</table>
+					<div>
+						<table id="checkboxTable">
+							<tr>
+								<td>
+									<input type ="checkbox" name="checkbox" required>
+								</td>
+								<td>
+									<p>I agree to the Terms of Service</p>
+								</td>
+							<tr>
+								<td>
+									<input type ="checkbox" name="checkbox">
+								</td>
+								<td>
+									<p>I want to receive news and updates</p>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</fieldset>
+				<footer>
+						<button type="submit" class="button">Submit</button>
+				</footer>
+			</form>
+		</div>
+	</body>
+</html>
