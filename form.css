@@ -1,0 +1,126 @@
+html, body 
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	display: block;
+	background: #05FFE6;
+}
+
+/*Form Wrapper start*/
+#content 
+{
+	width: 400px;
+	margin: 0 auto;
+	padding: 40px;
+}
+/*Form wrapper END*/
+
+/*Form css start*/
+#formContent
+{
+	margin: 0;
+    outline: none;
+    box-shadow: 0 0 20px rgba(0,0,0,.3);
+    color: #666;
+}
+
+#formContent *
+{
+	margin: 0;
+	padding: 0;
+}
+
+#formContent header 
+{
+ 	display: block;
+	padding: 20px 30px;	
+	border-bottom: 1px solid gray;
+	background: rgba(248,248,248,.9);
+}
+
+#formContent h1 
+{
+	font-size: 25px;
+	font-weight: bold;
+	font-style: oblique;
+	font-family: "Lucida Console", Monospace, serif;
+	color: #232323;
+	text-align: center;
+}
+
+#formContent fieldset
+{
+	display: block;
+    padding: 25px 30px 5px;
+    border: none;
+    background: rgba(255,255,255,.9);
+}
+
+#formContent fieldset + fieldset 
+{
+	border-top: 1px solid gray;
+}
+
+#formContent div
+{
+	margin-bottom: 20px		
+} 
+
+#formContent .input input 
+{
+	display: block;
+	box-sizing: border-box;
+	width: 100%;
+	height: 39px;
+	padding: 8px 10px;
+	outline: none;
+	background: #fff;
+	font: 15px/19px 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+input:focus 
+{
+  border-color: #000;
+}
+
+#formContent footer
+{
+	display: block;
+    padding: 15px 30px 65px;
+    border-top: 1px solid gray;
+    background: rgba(248,248,248,.9)
+}
+
+#formContent .button 
+{
+	float: right;
+	height: 39px;
+	overflow: hidden;
+	margin: 10px 0 0 20px;
+	padding: 0 25px;
+	border: 0;
+	color: #fff;
+	cursor: pointer;
+	background-color: #2da5da;
+}
+
+#nameTable td
+{
+	padding-right: 1em;
+}
+
+#checkboxTable td
+{
+	
+	padding-top: 1em;
+}
+
+#checkboxTable p
+{
+	margin-top: -2px;
+	padding-left: 1em; 
+}
