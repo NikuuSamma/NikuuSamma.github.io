@@ -12,14 +12,17 @@ img
 
 #bg
 { 
+ 
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  
   /* The image used */
   background-image: url('../img/iitbackground.jpg');
   
-  height: 100%;
-  
   /* Center and scale the image nicely */
   background-position: center;
-  background-size: cover;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 
@@ -30,15 +33,16 @@ img
   background: rgba(204, 204, 204, 0.8);
   border-radius: 25px;
   position: relative;
-  top: 40%;
-  width: 300px;
+  top: 30%;
+  width: 50%;
   margin: 0 auto;
 }
 
 form
 {
   margin: 0 auto;
-  width: 300px;
+  width: 200px;
+  hieght: 25%;
 }
 
 fieldset
