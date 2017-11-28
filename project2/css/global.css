@@ -4,5 +4,11 @@ html, body
   width: 100%;
 }
 
+img
+{
+  width: auto;
+  overflow: hidden;
+}
+
 
 
