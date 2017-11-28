@@ -4,10 +4,11 @@ html, body
   width: 100%;
 }
 
-img
+#iitBannerBG
 {
   width: auto;
   overflow: hidden;
+ 
 }
 
 
