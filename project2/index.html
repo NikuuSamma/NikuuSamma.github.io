@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" media="screen" href="css/reset.css"/>
     <link rel="stylesheet" media="screen" href="css/normalize.css"/>
-    <link rel="stylesheet" media="screen" href="css/styles.css" />
-    <script src="js/scripts.js"></script> 
+    <link rel="stylesheet" media="screen" href="css/global.css" />
+    <link rel="stylesheet" media="screen" href="css/login.css" />
+    <script src="js/login.js"></script> 
   </head>
   <body>
     <div id="iitBanner">
@@ -17,7 +18,7 @@
     </div>
      
         <div id="formContent">
-          <form method="post" action="academics.html" onsubmit="login();" autocomplete="on">
+          <form method="post" action="iit.php" id="loginForm" name="loginForm" onsubmit="return login()" autocomplete="on">
             <fieldset>
               <legend><strong>Login</strong></legend>
               <p>
@@ -34,7 +35,7 @@
                 <input type="submit" value="Login">
                 <input type="reset" value="Clear">
               </p>
-              <p><a href="https://my.iit.edu/cp/myqa/answer/start">Forgot Passowrd</a> | <a href="https://my.iit.edu/cp/myqa/answer/start">Need Help?</a></p>
+              <p><a href="https://my.iit.edu/cp/myqa/answer/start">Forgot Passowrd</a> | <a href="https://ots.iit.edu/help-and-support">Need Help?</a></p>
             </fieldset>
           </form>
         </div>
